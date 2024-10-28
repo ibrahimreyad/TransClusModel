@@ -7,7 +7,7 @@ TransClusModel is a topic modeling approach that combines pre-trained language m
 
 1. Clone the repository:
    ```bash
-   git clone <your-repository-url>
+   git clone https://github.com/ibrahimreyad/TransClusModel.git
    cd TransClusModel
    ```
 
@@ -33,11 +33,6 @@ TransClusModel works with various text datasets, such as Reuters-21578, 20 Newsg
 - Stop-word removal
 - (Any other preprocessing steps)
 
-Example dataset links:
-- [Reuters-21578](link-to-dataset)
-- [20 Newsgroups](link-to-dataset)
-
-
 ## Usage
 
 To start using TransClusModel, run the following command:
@@ -58,13 +53,8 @@ python main.py --dataset_path data/20newsgroups.csv --num_topics 15 --model "dis
 ### 5. **Project Structure**
 - Provide an overview of the main files and directories in the project. This helps users understand where to look for specific parts of the code.
 ```markdown
-## Project Structure
 
-- `main.py`: The main file for running TransClusModel.
-- `preprocessing.py`: Contains functions for data cleaning and preprocessing.
-- `model.py`: Defines the TransClusModel class and core functionality.
-- `utils/`: Helper functions and utilities.
-- `README.md`: Project documentation.
+## Project Structure
 
 
 ## Results and Evaluation
@@ -82,10 +72,9 @@ TransClusModel may have performance constraints on very large datasets due to me
 
 ## License
 
-This project is licensed under the MIT License. See the LICENSE file for more details.
 
 
 ## Contact
 
-For any questions or further information, please contact [Your Email] or open an issue on GitHub.
+For any questions or further information, please contact [ibrahim.elsayed@fci.bu.edu.eg] or open an issue on GitHub.
 
