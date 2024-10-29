@@ -31,31 +31,15 @@ TransClusModel works with various text datasets, such as Reuters-21578, 20 Newsg
 - Lowercasing text
 - Tokenization
 - Stop-word removal
-- (Any other preprocessing steps)
-
-## Usage
-
-To start using TransClusModel, run the following command:
-```bash
-python main.py --dataset_path <path-to-dataset> --output_path <path-for-results>
+- Ngram
 
 
-Optional parameters:
-
---num_topics: Set the number of topics (default: 20)
---model: Specify the language model to use (e.g., "bert-base-uncased")
-(List other parameters if applicable)
-Example:
-
-python main.py --dataset_path data/20newsgroups.csv --num_topics 15 --model "distilbert-base-uncased"
 
 
 ### 5. **Project Structure**
-- Provide an overview of the main files and directories in the project. This helps users understand where to look for specific parts of the code.
-```markdown
 
 ## Project Structure
-
+this Repository contain all attepmts to reach my model
 
 ## Results and Evaluation
 
@@ -70,11 +54,11 @@ The results, including topic coherence scores and clustering metrics, will be sa
 TransClusModel may have performance constraints on very large datasets due to memory requirements for clustering. Additionally, topic coherence can vary with different pre-trained models, so results may not be consistent across models.
 
 
-## License
+
 
 
 
 ## Contact
 
-For any questions or further information, please contact [ibrahim.elsayed@fci.bu.edu.eg] or open an issue on GitHub.
+For any questions or further information, please contact [ibrahim.elsayed@fci.bu.edu.eg].
 
